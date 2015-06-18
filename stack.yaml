@@ -1,6 +1,7 @@
 resolver: nightly-2015-06-17
 packages:
 - liquid-fixpoint
+- liquidhaskell-lang
 - liquidhaskell
 extra-deps:
 - intern-0.9.1.4

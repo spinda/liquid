@@ -4,3 +4,6 @@
 [submodule "liquidhaskell"]
 	path = liquidhaskell
 	url = git@github.com:ucsd-progsys/liquidhaskell.git
+[submodule "liquidhaskell-lang"]
+	path = liquidhaskell-lang
+	url = git@github.com:spinda/liquidhaskell-lang.git
