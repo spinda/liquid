@@ -3,7 +3,8 @@
 	url = git@github.com:ucsd-progsys/liquid-fixpoint.git
 [submodule "liquidhaskell"]
 	path = liquidhaskell
-	url = git@github.com:ucsd-progsys/liquidhaskell.git
+	url = git@github.com:spinda/liquidhaskell.git
+	branch = gsoc2015
 [submodule "liquidhaskell-lang"]
 	path = liquidhaskell-lang
 	url = git@github.com:spinda/liquidhaskell-lang.git
