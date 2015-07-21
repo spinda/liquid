@@ -8,3 +8,9 @@
 [submodule "liquidhaskell-lang"]
 	path = liquidhaskell-lang
 	url = git@github.com:spinda/liquidhaskell-lang.git
+[submodule "liquid-ghc-prim"]
+	path = liquid-ghc-prim
+	url = git@github.com:spinda/liquid-ghc-prim.git
+[submodule "liquid-base"]
+	path = liquid-base
+	url = git@github.com:spinda/liquid-base.git
