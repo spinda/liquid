@@ -1,13 +1,13 @@
 [submodule "liquid-fixpoint"]
 	path = liquid-fixpoint
-	url = git://github.com/ucsd-progsys/liquid-fixpoint.git
+	url = https://github.com/ucsd-progsys/liquid-fixpoint.git
 [submodule "liquidhaskell"]
 	path = liquidhaskell
-	url = git://github.com/spinda/liquidhaskell.git
+	url = https://github.com/spinda/liquidhaskell.git
 	branch = gsoc2015
 [submodule "liquid-ghc-prim"]
 	path = liquid-ghc-prim
-	url = git://github.com/spinda/liquid-ghc-prim.git
+	url = https://github.com/spinda/liquid-ghc-prim.git
 [submodule "liquid-base"]
 	path = liquid-base
-	url = git://github.com/spinda/liquid-base.git
+	url = https://github.com/spinda/liquid-base.git
