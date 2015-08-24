@@ -1,0 +1,40 @@
+name:                liquidhaskell
+version:             0.5.0.0
+copyright:           2010-15 Ranjit Jhala, University of California, San Diego.
+synopsis:            Liquid Types for Haskell
+description:         Liquid Types for Haskell.
+homepage:            http://goto.ucsd.edu/liquidhaskell
+license:             BSD3
+license-file:        LICENSE
+author:              Ranjit Jhala, Niki Vazou, Eric Seidel, Michael Smith
+maintainer:          Ranjit Jhala <jhala@cs.ucsd.edu>
+category:            Language
+build-type:          Custom
+cabal-version:       >=1.18
+
+source-repository head
+  Type:        git
+  Location:    https://github.com/spinda/liquid
+
+library
+  reexported-modules:  Liquid.GHC.Base,
+                       Liquid.GHC.Classes,
+                       Liquid.GHC.Integer,
+                       Liquid.GHC.Num,
+                       Liquid.GHC.Prim,
+                       Liquid.GHC.Real,
+                       Liquid.GHC.Types,
+                       Liquid.Prelude,
+                       LiquidHaskell,
+                       LiquidHaskell_,
+                       LiquidHaskell.Cabal,
+                       LiquidHaskell.Plugin,
+                       LiquidHaskell.Prelude
+  build-depends:       base,
+                       template-haskell,
+                       liquidhaskell-core,
+                       liquidhaskell-std
+  default-language:    Haskell2010
+  ghc-options:         -fplugin=LiquidHaskell.Plugin
+                       -fplugin-opt=LiquidHaskell.Plugin:no-prune
+
